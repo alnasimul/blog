@@ -7,8 +7,6 @@ export default (reducer, actions, initialState) => {
     
         const [state, dispatch] = useReducer(reducer, initialState);
 
-        console.log(dispatch)
-
         // actions === { addBlogPost: (dispatch) => { return () => {} }}
 
         const boundActions = {}
